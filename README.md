@@ -6,11 +6,11 @@ This sparked Mint Parchment, a prototype AI tool designed to give instant academ
 ## What it does
 Mint Parchment is a browser-based AI study assistant that generates short, structured “jot notes” for any academic topic a student enters.
 Key features include:
-✅ **AI-powered concept summaries (via Chrome Prompt API)**
-✅ Auto-organized headings, bullet lists, and micro-definitions
-✅ Personal notes panel for users to expand on or edit the AI’s output
-✅ Sidebar history that lets users revisit recent topics
-✅ Prototype mind map canvas for visual study aids
+- ✅ **AI-powered concept summaries (via Chrome Prompt API)**
+- ✅ Auto-organized headings, bullet lists, and micro-definitions
+- ✅ Personal notes panel for users to expand on or edit the AI’s output
+- ✅ Sidebar history that lets users revisit recent topics
+- ✅ Prototype mind map canvas for visual study aids
 
 The tool runs entirely client-side, ensuring speed, simplicity, and privacy.
 
@@ -39,10 +39,10 @@ Prompt API quirks: Because the Prompt API is new, debugging session creation fai
 LocalStorage structure: Managing topic history, notes, and generated content while keeping the UI clean required repeated restructuring.
 
 ## Accomplishments that we're proud of
-✅ Implemented a working integration of the Chrome Prompt API
-✅ Created a polished UI with navigation, session history, and toggled note editing
-✅ Designed a clean custom rendering engine for jot-note formatting
-✅ Built a standalone mind-map canvas page as a foundation for future visual tools
+- ✅ Implemented a working integration of the Chrome Prompt API
+- ✅ Created a polished UI with navigation, session history, and toggled note editing
+- ✅ Designed a clean custom rendering engine for jot-note formatting
+- ✅ Built a standalone mind-map canvas page as a foundation for future visual tools
 
 ## What we learned
 - How to work with the Chrome Prompt API, including availability checks, session creation, and prompt flows
