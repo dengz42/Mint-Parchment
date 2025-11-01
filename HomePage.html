@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mint Parchment</title>
+  <link rel = "stylesheet" href = "general.css">
+  <link rel = "stylesheet" href = "styleHomePage.css">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
+</head>
+<body>
+  <script src = "general.js"></script>
+  <span id = "NavBtn" onclick="openNav()">&#9776;</span>
+  <div id="mySidenav" class = "sidenav">
+    <img id = "appIcon" src = "Mint Parchment App Icon.png">
+    <a href="#">New Session</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" onclick = "window.open('mindmapCanvas.html','_blank')">Draw MindMap</a>
+    <a href="#" id="noteBtn">Open Notes</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+    <br>
+    <br>
+    <p id = "chatHeader" style="text-align: center; margin-right: 5%;"><strong>Chat History</strong></p>
+  </div>
+
+  
+  <div id = "main">
+    <button id="initBtn">Click here to download and instantiate Prompt API</button>
+    <div class="container">
+      <div class = "subcontainer" id = "notes">
+        <textarea id="noteBox"></textarea>
+      </div>
+      <div id="output"></div>
+    </div>
+    
+    <div class ="container" id = "promptCont">
+      <textarea id = "promptBox" placeholder="Press the top button to instantiate Prompt API"></textarea>
+      <a href = "#" id="startBtn">Send</a>
+    </div>
+    
+    <script src="scriptHomePage.js"></script>
+  </div>
+</body>
+<footer class="site-footer">
+    <p>© 2025 Mint Parchment. All rights reserved.</p>
+</footer>
+</html>
