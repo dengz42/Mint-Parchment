@@ -15,6 +15,8 @@ Key features include:
 The tool runs entirely client-side, ensuring speed, simplicity, and privacy.
 
 ## How we built it
+This project was built solo. I implemented all major components, including the Chrome Prompt API integration, topic history management, note-taking interface, and prototype mind-map canvas, from front-end logic to UI design.
+
 Mint Parchment is built entirely with:
 - **HTML/CSS/JavaScript**
 - **Chrome’s Prompt API for local LLM-powered text generation**
